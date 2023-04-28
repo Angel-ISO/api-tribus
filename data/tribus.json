@@ -1,25 +1,68 @@
 [
     {
         "idTribu":1,
-        "tribu" : "Tribu 1",
-        "puntos" : 400000,
+        "competencia":"hunters",
+        "tribu" : "space runers",
+        "puntos" : 800000000,
         "campers" : [
             {
                 "id":1,
-                "nombre" : "Camper A",
+                "nombre" : "Jesus",
                 "edad" : 17,
-                "ingles" : "A1",
+                "ingles" : "B1",
                 "rol" : "Leader",
                 "img" : ""
             },
             {
                 "id":2,
-                "nombre" : "Camper B",
+                "nombre" : "Juan Jose",
                 "edad" : 17,
-                "ingles" : "A1",
+                "ingles" : "B1",
                 "rol" : "Leader Marketing",
+                "img" : ""
+            },
+            {
+                "id":3,
+                "nombre" : "Angel gabriel",
+                "edad" : 17,
+                "ingles" : "B1",
+                "rol" : "Leader tech",
+                "img" : ""
+            }
+        ]
+    },
+    {
+        "idTribu":2,
+        "competencia":"hunters",
+        "tribu" : "space runers",
+        "puntos" : 40000,
+        "campers" : [
+            {
+                "id":1,
+                "nombre" : "Juan david escalante",
+                "edad" : 18,
+                "ingles" : "A2",
+                "rol" : "Leader",
+                "img" : ""
+            },
+            {
+                "id":2,
+                "nombre" : "Esteban dario ruiz",
+                "edad" : 17,
+                "ingles" : "A2",
+                "rol" : "Leader Marketing",
+                "img" : ""
+            },
+            {
+                "id":3,
+                "nombre" : "Javier Andres nuñez",
+                "edad" : 17,
+                "ingles" : "A2",
+                "rol" : "Tripulante",
                 "img" : ""
             }
         ]
     }
+
+
 ]

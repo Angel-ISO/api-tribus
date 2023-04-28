@@ -37,24 +37,25 @@ fetch('data/tribus.json')
       const card = `
         <div class="card">
           <div class="card-header">
-            ${tribu.nombre}
+            competencia: ${tribu.competencia}
           </div>
           <div class="card-body">
-            <p>ID: ${tribu.IDtribu}</p>
+            <p>ID: ${tribu.idTribu}</p>
+            <p>nombre tribu: ${tribu.tribu}</p>
             <p>Puntos: ${tribu.puntos}</p>
             <p>Campers:</p>
             <ul>
               ${tribu.campers.map(camper => `
                 <li>
-                  <img src="${camper.imagen}" alt="${camper.rol}">
-                  ${camper.id} (${camper.ingles ? 'Inglés' : 'Español'}) - ${camper.rol}
+                  <img src="${camper.imagen}" alt="${camper.nombre}">
+                  ${camper.id} (nivel ingles: ${camper.ingles})  ${camper.rol}
                 </li>
               `).join('')}
             </ul>
           </div>
         </div>
       `;
-      tribusContainer.insertAdjacentHTML('beforeend', card);
+      tribusContainer.insertAdjacentHTML('afterend', card);
     }
   })
   .catch(error => {
