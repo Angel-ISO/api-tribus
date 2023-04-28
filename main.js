@@ -42,7 +42,7 @@ fetch('data/tribus.json')
           <div class="card-body">
             <p>ID: ${tribu.idTribu}</p>
             <p>nombre tribu: ${tribu.tribu}</p>
-            <p>Puntos: ${tribu.puntos}</p>
+            <p>Puntos de la tribu: ${tribu.puntos}</p>
             <p>Campers:</p>
             <ul>
               ${tribu.campers.map(camper => `
