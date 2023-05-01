@@ -32,6 +32,7 @@ fetch('data/tribus.json')
   .then(response => response.json())
   .then(data => {
     const tribusContainer = document.querySelector('.tribus');
+    tribusContainer.classList.add("tribusInformacion");
     for (let i = 0; i < data.length; i++) {
       const tribu = data[i];
       const card = `
